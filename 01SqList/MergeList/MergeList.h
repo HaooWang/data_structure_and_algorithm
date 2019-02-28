@@ -10,7 +10,7 @@
 #ifndef DATASTRUCTURECPP_MERGELIST_H
 #define DATASTRUCTURECPP_MERGELIST_H
 
-#include <stdlib.h>
+#include <cstdlib.h>
 #include "../Union/SequenceList.h"		//**¡ø02 ÏßÐÔ±í**//
 
 

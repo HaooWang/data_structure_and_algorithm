@@ -4,6 +4,8 @@ project(DataStructureCpp)
 set(CMAKE_CXX_STANDARD 11)
 
 
-add_executable(Union Union/status.h Union/SequenceList.h Union/SequenceListBasicOperations.cpp Union/Union.h Union/Unino_main.cpp)
+add_executable(Union 01SqList/Union/status.h 01SqList/Union/SequenceList.h 01SqList/Union/SequenceListBasicOperations.cpp 01SqList/Union/Union.h 01SqList/Union/Unino_main.cpp)
 
-add_executable(MergeList Union/status.h Union/SequenceList.h Union/SequenceListBasicOperations.cpp MergeList/MergeList.h MergeList/MergeList.cpp MergeList/MergeList_main.cpp)
+add_executable(MergeList 01SqList/Union/status.h 01SqList/Union/SequenceList.h 01SqList/Union/SequenceListBasicOperations.cpp 01SqList/MergeList/MergeList.h 01SqList/MergeList/MergeList.cpp 01SqList/MergeList/MergeList_main.cpp)
+
+add_executable(LinkedList 02LinkedList/SourceFile/main.cpp)

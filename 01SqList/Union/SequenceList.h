@@ -12,7 +12,7 @@
 
 
 
-#include <stdio.h>
+#include <cstdlib>
 #include <stdlib.h>						//提供malloc、realloc、free、exit原型
 #include "status.h"
 #include <iostream>

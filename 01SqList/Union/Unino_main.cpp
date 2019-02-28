@@ -9,7 +9,7 @@
 
 
 #include <iostream>
-#include <stdio.h>
+#include <cstdio.h>
 #include "Union.h"                    //**¡ø02 ÏßÐÔ±í**//
 
 
